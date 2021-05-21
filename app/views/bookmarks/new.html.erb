@@ -1,6 +1,3 @@
-
-
-
 <%= simple_form_for([@list, @bookmark], method: :post, url: new_bookmark_path(@list) )do |f| %>
   <%= f.input :comment %>
   <%= f.association :movie %>
